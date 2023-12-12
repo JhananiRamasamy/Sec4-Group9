@@ -150,3 +150,32 @@ footer {
 .quick-links a:hover {
     color: var(--color-orange); 
 }
+
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: bold;
+    color: var(--color-orange); 
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    color: var(--color-dark-blue);
+    text-align: justify;
+}
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-content {
+    max-width: 50%;
+    margin-right: 40px;
+
+}
+
+#heroimg {
+    max-width: 50%;
+    border-radius: 10%;
+}
+
