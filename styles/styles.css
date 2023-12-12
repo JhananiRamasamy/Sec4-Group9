@@ -27,7 +27,7 @@ body {
     padding: 20px;
     display: flex; 
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
 }
 
 .side-menu ul {
@@ -78,7 +78,7 @@ section {
 
 .side-menu a {
     text-decoration: none;
-    color: #22092B;
+    color: var(--color-dark-blue);
     transition: color 0.3s;
     font-weight: bold;
     position: relative;
