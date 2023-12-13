@@ -3,7 +3,7 @@
     --color-orange: #FF5C40;
     --color-dark-blue: #22092B;
     --color-grey: #363437da;
-    --color-white: #eee;
+    --color-white: #ffffff;
 }
 
 body {
@@ -61,6 +61,7 @@ body {
 
 main {
     padding: 20px;
+    margin-top: 60px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -132,12 +133,22 @@ footer {
     color: var(--color-dark-blue);
     padding: 10px;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 .quick-links {
-    max-width: 600px;
+    width: 400px;
     margin: 0 auto;
 }
 
+.address {
+    width: 400px;
+    margin-left: 200px;
+}
+
+.address h3, 
 .quick-links h3 {
     font-family: 'Jost', sans-serif;
     font-weight: bold;
@@ -157,7 +168,6 @@ footer {
     text-decoration: none;
     color: var(--color-dark-blue);
     transition: color 0.3s;
-    font-weight: bold;
 }
 
 .quick-links a:hover {
@@ -166,15 +176,18 @@ footer {
 
 h2 {
     font-family: 'Jost', sans-serif;
-    font-weight: bolder;
     color: var(--color-orange); 
-    font-size: larger;
+    font-size: 40px;
 }
-
-p {
+#weworkwith{
+    text-align: center;
+    padding: 40px 20px;
+}
+#home p {
     font-family: 'Jost', sans-serif;
     color: var(--color-dark-blue);
     text-align: justify;
+    padding-bottom: 30px;
 }
 .home-content {
     display: flex;
@@ -197,15 +210,9 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#weworkwith{
-    text-align: center;
-    padding: 40px 20px;
-    font-size: larger;
-
-}
 
 .Companies {
-    width: 18%; 
+    width: 20%; 
     margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     background-color: #F8F8F8; 
@@ -221,4 +228,44 @@ p {
 .companylogo img {
     max-width: 100px;
     height: auto;
+}
+
+#copyright {
+    width: 100%; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexbox-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex: 1;
+    gap: 1.5em;
+}
+
+.flex-item {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--color-light-orange);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.rating {
+    margin-top: 10px;
+    color: var(--color-orange);
+}
+
+.name {
+    text-align: right;
+    margin-top: 10px;
+    color: var(--color-orange);
 }
