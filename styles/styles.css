@@ -431,5 +431,18 @@ i.fa-times {
     }
     .mobile{
         display: block;
-    }  
+    } 
+    .top-menu {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top-menu ul {
+        margin-top: 20px;
+    }
+
+    .top-menu li {
+        margin: 0;
+    } 
 }
