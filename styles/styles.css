@@ -309,7 +309,7 @@ h4{
 }
 
 .pricing-table {
-    margin-top: 20px auto;
+    margin-top: 20px;
 }
 
 table {
@@ -410,7 +410,7 @@ i.fa-times {
     text-align: center;
 }
 #categories img {
-    width: 20%;
+    width: 15%;
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -432,17 +432,66 @@ i.fa-times {
     .mobile{
         display: block;
     } 
+    .container {
+        margin: 0;
+    }
     .top-menu {
-        flex-direction: column;
+        padding: 10px;
+        flex-direction: row;
         align-items: center;
         text-align: center;
     }
 
     .top-menu ul {
-        margin-top: 20px;
+        margin-top: 10px;
+        flex-direction: row;
     }
 
     .top-menu li {
-        margin: 0;
+        margin: 10px 0;
+        padding: 10px;
     } 
+   
+    main {
+        margin: 10px;
+        text-align: center;
+    }
+
+    #muticol {
+        flex-wrap: wrap;
+    }
+
+    #heroimg {
+        display: block;
+    }
+
+    .flex-item {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        margin: 75px;
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    #categories {
+        grid-template-columns: 1fr;
+        margin: 10px;
+    }
+    #categories > section {
+        text-align: center;
+    }
+    nav .demo-button button {
+        display: none;
+    }
 }
