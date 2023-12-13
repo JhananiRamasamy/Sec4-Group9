@@ -1,8 +1,8 @@
 :root{
-    --color-light-orange: #E7F5F6;
+    --color-light-blue: #E7F5F6;
     --color-orange: #FF5C40;
-    --color-dark-blue: #22092B;
-    --color-grey: #363437da;
+    --color-dark-blue: #0c0c5a;
+    --color-grey: #363437ec;
     --color-white: #ffffff;
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .top-menu {
-    background-color: var(--color-light-orange); 
+    background-color: var(--color-light-blue); 
     color: var(--color-dark-blue);
     padding: 20px;
     display: flex; 
@@ -129,7 +129,7 @@ section {
     margin-left: auto;
 }
 footer {
-    background-color: var(--color-light-orange); 
+    background-color: var(--color-light-blue); 
     color: var(--color-dark-blue);
     padding: 10px;
     text-align: left;
@@ -176,7 +176,7 @@ footer {
 
 h2 {
     font-family: 'Jost', sans-serif;
-    color: var(--color-orange); 
+    color: var(--color-dark-blue); 
     font-size: 40px;
 }
 #weworkwith{
@@ -251,10 +251,11 @@ h2 {
 }
 
 .flex-item {
+    margin-top: 20px;
     width: 35%;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: var(--color-light-orange);
+    background-color: var(--color-light-blue);
     margin-bottom: 20px;
     position: relative;
 }
@@ -266,7 +267,12 @@ h2 {
     color: var(--color-dark-blue);
 }
 
+.name{
+    margin-right: 40px;
+}
+
 .rating {
+    margin-left: 40px;
     margin-top: 10px;
     color: var(--color-orange);
 }
@@ -275,4 +281,60 @@ h2 {
     text-align: right;
     margin-top: 10px;
     color: var(--color-orange);
+}
+
+.price h2, 
+.aboutus h2{
+    text-align: center;
+}
+.price p{
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+    color: var(--color-grey);
+    
+}
+.aboutus p {
+    text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: var(--color-dark-blue);
+}
+h4{
+    font-family: 'Jost', sans-serif;
+    color: var(--color-orange); 
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.pricing-table {
+    margin-top: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+th {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--color-light-blue);
+}
+.pricing-table i {
+    font-size: 18px;
+    color: #4CAF50; 
+}
+i.fa-times {
+    color: #F44336; 
 }
