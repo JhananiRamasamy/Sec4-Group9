@@ -420,3 +420,16 @@ i.fa-times {
     text-align: center;
     color: var(--color-dark-blue);
 }
+
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }  
+}
