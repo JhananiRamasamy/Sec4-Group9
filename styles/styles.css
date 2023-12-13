@@ -34,11 +34,12 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .top-menu li {
-    margin-right: 15px; 
-    position: relative;
+    margin-right: 30px; 
 }
 
 .top-menu a {
@@ -51,9 +52,11 @@ body {
     align-items: center;
 }
 .top-menu img {
+    margin-left: 40px;
     margin-right: 10px;
     width: 20px; 
     height: 20px;
+    
 }
 
 main {
@@ -65,13 +68,19 @@ main {
 section {
     margin-bottom: 50px;
 }
-
 .demo-button button {
     background-color: var(--color-dark-blue); 
     color: var(--color-white);
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.demo-button button i {
+    margin-left: 20px; 
 }
 
 .demo-button button:hover {
@@ -83,7 +92,6 @@ section {
     color: var(--color-dark-blue);
     transition: color 0.3s;
     font-weight: bold;
-    position: relative;
     display: flex;
     align-items: center;
 }
@@ -99,7 +107,7 @@ section {
     bottom: -5px;
     left: 50%; 
     transform: translateX(-50%);
-    width: 20px; 
+    width: 25px; 
     height: 2px; 
     background-color: var(--color-orange);
     opacity: 0;
@@ -115,6 +123,9 @@ section {
     margin-right: 10px;
     width: 20px;
     height: 20px;
+}
+.signup-menu {
+    margin-left: auto;
 }
 footer {
     background-color: var(--color-light-orange); 
@@ -155,8 +166,9 @@ footer {
 
 h2 {
     font-family: 'Jost', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     color: var(--color-orange); 
+    font-size: larger;
 }
 
 p {
@@ -180,3 +192,33 @@ p {
     border-radius: 10%;
 }
 
+#muticol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#weworkwith{
+    text-align: center;
+    padding: 40px 20px;
+    font-size: larger;
+
+}
+
+.Companies {
+    width: 18%; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #F8F8F8; 
+    padding: 20px;
+    text-align: center;
+}
+
+.Companies h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.companylogo img {
+    max-width: 100px;
+    height: auto;
+}
