@@ -247,16 +247,23 @@ h2 {
     justify-content: space-between;
     margin-top: 20px;
     flex: 1;
-    gap: 1.5em;
+    gap: 2em;
 }
 
 .flex-item {
-    width: 45%;
+    width: 35%;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: var(--color-light-orange);
     margin-bottom: 20px;
     position: relative;
+}
+
+.flex-item p {
+    text-align: justify;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: var(--color-dark-blue);
 }
 
 .rating {
