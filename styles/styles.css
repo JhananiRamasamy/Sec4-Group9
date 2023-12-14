@@ -58,11 +58,8 @@ body {
     align-items: center;
 }
 .top-menu img {
-    margin-left: 40px;
-    margin-right: 10px;
     width: 20px; 
-    height: 20px;
-    
+    height: 20px;  
 }
 header{
     grid-area: header;
@@ -74,8 +71,7 @@ nav{
 main {
     padding: 20px;
     margin-top: 60px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
     grid-area: main;
 }
 
@@ -134,7 +130,6 @@ section {
 }
 
 .top-menu img {
-    margin-right: 10px;
     width: 20px;
     height: 20px;
 }
@@ -211,7 +206,7 @@ h2 {
 
 .text-content {
     max-width: 50%;
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 #heroimg {
@@ -257,13 +252,9 @@ h2 {
 
 .flex-item p {
     text-align: justify;
-    margin-right: 40px;
-    margin-left: 40px;
+    /*margin-right: 40px;*/
+    margin-left: 20px;
     color: var(--color-dark-blue);
-}
-
-.name{
-    margin-right: 40px;
 }
 
 .rating {
@@ -273,7 +264,7 @@ h2 {
 }
 
 .name {
-    text-align: right;
+    /*text-align: right;*/
     margin-top: 10px;
     color: var(--color-orange);
 }
@@ -286,30 +277,30 @@ h2 {
 }
 .productdetail p{
     text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
+    /*margin-right: 150px;*/
+    margin-left: 20px;
     margin-bottom: 40px;
     color: var(--color-grey);
 }
 .price p{
     text-align: center;
-    margin-right: 150px;
-    margin-left: 150px;
+    /*margin-right: 150px;*/
+    margin-left: 20px;
     margin-bottom: 40px;
     color: var(--color-grey);
     
 }
 .aboutus p {
     text-align: justify;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: var(--color-dark-blue);
 }
 h4{
     font-family: 'Jost', sans-serif;
     color: var(--color-orange); 
     font-size: 15px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .pricing-table {
@@ -317,6 +308,7 @@ h4{
 }
 
 table {
+    margin-right: 20px;
     width: 100%;
     border-collapse: collapse;
     text-align: center;
@@ -515,28 +507,32 @@ i.fa-times {
     } 
     body {
         margin: 0;
-        font-size: 14px;
-        overflow-x: hidden;
-
+        font-size: 12px;
     }
     .container {
         margin: 0;
     }
     .top-menu {
         width: 100%;
-        padding: 10px;
-        flex-direction: row;
+        padding: 2px;
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
     .top-menu ul {
         margin-top: 10px;
-        flex-direction: row;
+        
+    }
+
+    .top-menu img {
+        margin-top: 20px;
+        width: 20px; 
+        height: 20px;  
     }
 
     .top-menu li {
-        margin: 10px 0;
+      
         padding: 10px;
     } 
    
@@ -551,8 +547,6 @@ i.fa-times {
 
     #heroimg {
         display: block;
-        border-radius: 10%;
-        width: 100%;
     }
 
     .flex-item {
@@ -560,8 +554,11 @@ i.fa-times {
         margin: 0;
         padding: 10px;
     }
+    .flex-item p {
+        text-align: right;
+    }
     .contact-container {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .contact-info,
